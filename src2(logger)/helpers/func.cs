@@ -17,9 +17,8 @@ namespace helpers.StarCitizen_DevTool
         public static int VK_UP = 0x26;
         public static int VK_RIGHT = 0x27;
         public static int VK_DOWN = 0x28;
-
-
         public static int VK_NUMPAD0 = 0x60;
         public static int VK_NUMPAD1 = 0x61;
+        public static int VK_NUMPAD7 = 0x67;
     }
 }

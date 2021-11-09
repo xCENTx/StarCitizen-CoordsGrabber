@@ -83,6 +83,7 @@ namespace StarCitizen_DevTool
 
         private void HotkeyTimer_Tick(object sender, EventArgs e)
         {
+            if (func.GetAsyncKeyState(func.VK_NUMPAD7) != 0) hotkeys_checkBox.Checked = !hotkeys_checkBox.Checked;
             if (!GameRunning) return;
             if (!hotkeys_checkBox.Checked) return;
             if (varX == 0 || varY == 0 || varZ == 0) return;
